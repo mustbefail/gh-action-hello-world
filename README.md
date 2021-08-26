@@ -5,8 +5,3 @@
 ## Development
 
 Clone that repo.
-
-```
-npm ci
-node start
-```
