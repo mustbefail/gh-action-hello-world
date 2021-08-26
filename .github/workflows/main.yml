@@ -30,6 +30,5 @@ jobs:
           npm ci
       - name: deploy
         run: |
-          npx ncc build index.js
           zip -j deploy.zip ./index.js ./helloWorld.js
           aws lambda update-function-code --function-name=hello-world-lambda-fn --zip-file=fileb://deploy.zip
