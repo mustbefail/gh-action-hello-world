@@ -6,8 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "type": "module",
+  "type": "commonjs",
   "keywords": [],
   "author": "Viktor Kushnir",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "aws-lambda": "^1.0.6"
+  },
+  "dependencies": {}
 }
