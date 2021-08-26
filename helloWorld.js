@@ -1,1 +1,1 @@
-export default () => "Hello, World";
+exports.helloWorld = (name = 'World') => `Hello, ${name}!`;
